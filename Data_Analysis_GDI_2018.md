@@ -1,7 +1,8 @@
 # The relationship between HDI, Education and Gender: An Analysis around the World
 ## Udacity Bertelsmann Data Science Schoolarship — BUDS Challenge MINI Project
 
-By [Mayra Bueno](https://github.com/baguy/) and [Steve Getachew](https://github.com/SteveGetachew)
+### By [Mayra Bueno](https://github.com/baguy/) and [Steve Getachew](https://github.com/SteveGetachew)
+###### 2018
 
 As part of the MINI Project initiative in Data Science Scholarship provided by Udacity in collaboration with Bertelsmann, a team of two brave aspiring data scientists (Mayra Dantas Bueno & Steve Getachew) decided to set out and tasked themselves with the project of analysing a rather ambitious topic: How is the development status of countries affected by their education and what other factors might contribute to this result?
 
