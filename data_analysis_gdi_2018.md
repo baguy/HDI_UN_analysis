@@ -10,22 +10,22 @@ For this matter, we gathered data from the publicly available UN Data set and pr
 For an initial visualization to gain an insight into the data, we looked at the average HDI score (across all years of the data set from 1990 to 2015) across countries which provides us with the following distribution of HDI scores around the world.
 
 ![alt text](images/01.png "Initial Mapping of HDI across the World — Data averaged from 1990–2015")
-###### Initial Mapping of HDI across the World — Data averaged from 1990–2015
+###### Image 01: Initial Mapping of HDI across the World — Data averaged from 1990–2015
 
 Before carrying on with the analysis, we decided to narrow down our dataset for the scope of our analysis in order to examine the relationship between Education and the HDI for respective countries more effectively. For this matter, we decided to look at two groups of countries, the ones with the highest average HDI and the lowest HDI across the years, settling on a manageable number of 5 countries per group.
 
 ![alt text](images/02.png "Top 5 Countries with Highest & Lowest Average HDI Score — Average from 1990 to 2015")
-###### Initial Mapping of HDI across the World — Data averaged from 1990–2015
+###### Image 02: Initial Mapping of HDI across the World — Data averaged from 1990–2015
 
 After doing so, we decided to look more into the relationship between the HDI Score and how it is influenced by the aspect of Education, which in our case more specifically refers to the two main factors Expected Years of Education and Actual Mean Years of Education in a respective country.
 
 To begin with, we look into how strong the relationship between those factors is by looking at a simple correlation for the two groups of countries identified above. In fact, we can see that for the HDI score and Expected Years of Schooling as well as HDI score and Mean Years of Schooling, the correlation seems to be generally quite strong for both groups of countries so that one can assume there to be a strong relationship between the two variables.
 
 ![alt text](images/03.png "Correlation between HDI Score & — Actual — Mean Years of Education — Average 1990–2015")
-###### Correlation between HDI Score & (Actual) Mean Years of Education (Average 1990–2015)
+###### Image 03: Correlation between HDI Score & (Actual) Mean Years of Education (Average 1990–2015)
 
 ![alt text](images/04.png "Correlation between HDI Score & Expected Years of Education — Average 1990–2015")
-###### Correlation between HDI Score & Expected Years of Education (Average 1990–2015)
+###### Image 04: Correlation between HDI Score & Expected Years of Education (Average 1990–2015)
 
 Interestingly we can see that for countries with a lower HDI score, the correlation between HDI & Expected Years of Education seems to be even stronger than for countries with a higher HDI score (as demonstrated by the fact that the Top 4 of the Top 5 countries in this analysis are actually from the group of countries with lower HDI scores). However, when compared to the prior analysis of correlation between HDI & Actual Mean Years of Education we can see that this picture is very much reversed, seeing as now 3 Countries in the Top 5 are from the group of countries with the highest HDI. This possibly indicates that there might be a discrepancy between the Expected Years of Education and the Mean Years of Education between countries. This discrepancy could be especially severe for developing countries with a lower HDI score which could help to explain this difference in correlation (for instance that Actual Years of Education is much lower than Expected Education or that there are other factors leading to a shift away from the expectation in education for countries with a lower HDI Score.
 
@@ -34,21 +34,21 @@ Afterwards, we took a look at the mean years of education for males and females 
 In fact, it is possible to see from the charts below that countries with a higher HDI score seem to have a more egalitarian education for both genders. Countries with lower HDI scores on the other hand, seem to not only have lesser mean education in general (as shown by an overall lower amount of years of education) but also show an especially severe contrast in education between the genders, especially concerning women who barely receive education at all.
 
 ![alt text](images/05.png "Correlation between mean years of schooling for females and males in top 5 countries with highest GDI")
-###### Correlation between mean years of schooling for females and males in top 5 countries with highest GDI
+###### Image 05: Correlation between mean years of schooling for females and males in top 5 countries with highest GDI
 
 ![alt text](images/06.png "The same in top 5 countries with lowest GDI (2015)")
-###### The same (from the previous image) in top 5 countries with lowest GDI (2015)
+###### Image 06: The same (from the previous image) in top 5 countries with lowest GDI (2015)
 
 Finally, a comparison was made between the country with the highest Human Development Index in the world, Norway, and the country with the lowest Human Development Country, Niger. Besides HDI, we also compared gross national income and mean years of schooling to gain a better insight into how this discrepancy in HDI can help to explain or result in other differences in variables between the countries.
 
 ![alt text](images/07.png "Comparison between Norway’s HDI with Niger’s HDI")
-###### Comparison between Norway’s HDI with Niger’s HDI
+###### Image 07: Comparison between Norway’s HDI with Niger’s HDI
 
 ![alt text](images/08.png "Comparison between Norway’s mean years of schooling with Niger’s")
-###### Comparison between Norway’s mean years of schooling with Niger’s
+###### Image 08: Comparison between Norway’s mean years of schooling with Niger’s
 
 ![alt text](images/09.png "The same with Norway’s gross national income per capita as compared to Niger’s")
-###### The same (from the previous image) with Norway’s gross national income per capita as compared to Niger’s
+###### Image 09: The same (from the previous image) with Norway’s gross national income per capita as compared to Niger’s
 
 To compare the mean years of schooling, it was necessary to calculate the means for female and male income (the data presented both values separated), and the same had to be done for the gross national per capita since it was also separated between male and female incomes.
 
